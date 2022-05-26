@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 
 const name = 'Priscilla'
-export const siteTitle = 'Next.js Samble Website'
+export const siteTitle = 'Next.js Sample Website'
 
 export default function Layout ({ children, home }) {
     return (

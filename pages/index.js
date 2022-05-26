@@ -12,16 +12,19 @@ export async function getStaticProps() {
             allPostsData,
         },
     }
-}
+} 
 
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
         <Head>
-            <title>{siteTitle}</title>
+            <title>Priscilla's Blog</title>
         </Head>
+
         <section className={utilStyles.headingMd}>
-            <p>[Hello! I'm learning Next.JS because we are rebuilding the FMC Website with it.]</p>
+            <p>
+                [Hello! I'm learning Next.JS because we are rebuilding the FMC website with it.]
+            </p>
             <p>
                 (This is a sample website - youll be building a site like this on{' '}
                 <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
